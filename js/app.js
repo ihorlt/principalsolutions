@@ -144,7 +144,7 @@ myApp.config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $
             views: {
                 'home-breadcrumb@lang': { template: '<div ps-photo-top-page id="BreadcrumImgBlock7" block-number="2"></div>'},
                 'home-front-bottom@lang': { template: ''},
-                'home-front-top@lang': { template: ''},
+                'home-front-top@lang': { template: '<div ps-techtwo></div>'},
                 'home-front@lang': {template: '' },
             }
         })
@@ -269,6 +269,15 @@ myApp.directive('psSendContacts', ['$stateParams', function($stateParams) {
 myApp.directive('psPhotoTechone', ['$stateParams',  function($stateParams) {
     return { replace: true,  restrict: 'A',  scope: { },
         templateUrl: 'partials/blocks/psPhotoTechone.html',
+        link: function($scope, $element, $attrs, $controllers) {
+                $scope.lang = { val: $stateParams.language }
+    }}
+}]);
+
+
+myApp.directive('psTechtwo', ['$stateParams',  function($stateParams) {
+    return { replace: true,  restrict: 'A',  scope: { },
+        templateUrl: 'partials/blocks/psTechtwo.html',
         link: function($scope, $element, $attrs, $controllers) {
                 $scope.lang = { val: $stateParams.language }
     }}
