@@ -1,0 +1,30 @@
+<div class="container content-md">
+
+	<div ng-repeat="card in items">
+
+	<div class="row margin-bottom-20">
+		<div class="col-sm-5 sm-margin-bottom-20">
+			<img class="img-responsive" ng-srcset="img/{{card.item[1]}}" alt="" />
+		</div>
+		<div class="col-sm-7">
+			<div class="news-v3">
+				<ul class="list-inline posted-info">
+					<li>{{card.item[2]}}</li>
+					<li>{{card.item[3]}}</a></li>
+				</ul>
+				<h2>{{card.item[4]}}</h2>
+				<p>{{card.item[5]}}</p>
+				<ul class="post-shares">
+					<li>
+							<i class="rounded-x icon-speech"></i>
+					</li>
+					<li><i class="rounded-x icon-share"></i></li>
+					<li><i class="rounded-x icon-heart"></i></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	</div>
+
+</div>

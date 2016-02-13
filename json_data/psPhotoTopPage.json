@@ -1,0 +1,109 @@
+{
+	"BreadcrumImgBlock1": {
+		"en": {
+			"title": "Document Management",
+			"parag": "We delivered principal solutions to enterprises operating in industry and services"
+			},
+		"ua": {
+			"title": "Управління документообігом",
+			"parag": "Ми доставляємо грунтовні рішення для підприємств, що працюють в промисловості і послугах"
+		},
+		"imgpath": "breadcrums-10-02-1049-img7.jpg"
+	},
+
+	"BreadcrumImgBlock2": {
+		"en": {
+			"title": "Solutions in Education",
+			"parag": "We help our clients align their unique mission and goals with the maximum return on technology investments"
+			},
+		"ua": {
+			"title": "Рішення в освіті",
+			"parag": "Ми допомагаємо нашим клієнтам співставити іх унікальні цілі та мету максимальним прибутком від інвестицій в технології"
+		},
+		"imgpath": "breadcrums-10-02-1049-img3.jpg"
+	},
+
+	"BreadcrumImgBlock3": {
+		"en": {
+			"title": "Solutions for Enterprices and Manufacturing",
+			"parag": "With Information Technology we help our clients to produce product with right quality, in right quantity, at the right time"
+			},
+		"ua": {
+			"title": "Рішення для промисловості та виробництва",
+			"parag": "З інформаційними технологіями ми допомагаємо нашим клієнтам воробляти товари з гарною якістю, в гарній кількості та в гарний час"
+		},
+		"imgpath": "breadcrums-10-02-1049-img1.jpg"
+	},
+
+	"BreadcrumImgBlock4": {
+		"en": {
+			"title": "Transportation Management Software",
+			"parag": "Our software improve efficiency, productivity and reducing costs involved with a company's vehicles"
+			},
+		"ua": {
+			"title": "Софт управління транспортом",
+			"parag": "Наш софт покращить ефективність, продуктивність і зменшить кошти пов’язані із автопарком компанії"
+		},
+		"imgpath": "breadcrums-10-02-1049-img2.jpg"
+	},
+
+	"BreadcrumImgBlock5": {
+		"en": {
+			"title": "About Principal Solutions",
+			"parag": "Discover More About Us"
+			},
+		"ua": {
+			"title": "Про Принципал Солушнз",
+			"parag": "Відкрийте більше про нас"
+		},
+		"imgpath": "breadcrums-10-02-1049-img4.jpg"
+	},
+
+	"BreadcrumImgBlock6": {
+		"en": {
+			"title": "Mobile Technologies",
+			"parag": "Extensive hands-on experience in development of incredibly feature-laden mobile applications"
+			},
+		"ua": {
+			"title": "Мобільні технології",
+			"parag": "Великий досвід в розробленні функціонального мобільного софта"
+		},
+		"imgpath": "breadcrums-10-02-1049-img5.jpg"
+	},
+
+	"BreadcrumImgBlock7": {
+		"en": {
+			"title": "Websites That Stand Out",
+			"parag": "Tech-driven solutions with customer-focused results"
+			},
+		"ua": {
+			"title": "Веб-сайти, які визнають",
+			"parag": "Рішення на основі розроблення та тестування, що фокусуються на клієнтах"
+		},
+		"imgpath": "breadcrums-10-02-1049-img6.jpg"
+	},
+
+	"BreadcrumImgBlock8": {
+		"en": {
+			"title": "Languages and Frameworks",
+			"parag": "We are dedicated towards deploying the latest technologies available in the market"
+			},
+		"ua": {
+			"title": "Мови програмування та фреймворки",
+			"parag": "Ми направлені на застосування найновіших технологій на ринку"
+		},
+		"imgpath": "breadcrums-10-02-1049-img8.jpg"
+	},
+
+	"BreadcrumImgBlock9": {
+		"en": {
+			"title": "PRINCIPAL SOLUTIONS",
+			"parag": "Full cycle software development services"
+			},
+		"ua": {
+			"title": "ПРИНЦИПАЛ СОЛУШНЗ",
+			"parag": "Повний цикл розробки програмного забезпечення"
+		},
+		"imgpath": "breadcrums-10-02-1049-img9.jpg"
+	}
+}

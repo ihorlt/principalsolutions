@@ -1,0 +1,49 @@
+{
+	"docmanagerBlock2": {
+		"en": {
+			"title1": "Delivering",
+			"parag1": "We deliver tailored solutions matching a particular business context",
+			"title2": "Experience",
+			"parag2": "We are experienced both in electronic document management and solutions that support paper document flow",
+			"title3": "Versatility",
+			"parag3": "We work with more than 160 document formats including PDF, Spreadsheets, CAD Drawings, etc."
+			},
+		"ua": {
+			"title1": "Доставка",
+			"parag1": "Ми доставляємо підігнані рішення, що відповідають бізнес контексту",
+			"title2": "Досвід",
+			"parag2": "Ми маємо досвід в управлінні і рішеннях як електронним документообігом, так і в потоках паперових документів",
+			"title3": "Багатосторонність",
+			"parag3": "Ми працюємо більш ніж 160 форматів документів включаючи PDF, електронні таблиці, CAD рисунки, і т.д."
+		},
+		"class": {
+			"char1": "icon-paper-plane",
+			"char2": "icon-book-open",
+			"char3": "icon-docs"
+		}
+	},
+
+	"docmanagerBlock1": {
+		"en": {
+			"title1": "Unified Experience",
+			"parag1": "While incorporating improved worker capabilities, we ensure the transition path for users is duly implemented, with no context- and content-specific aspects compromised.",
+			"title2": "All-round Security",
+			"parag2": "With every application delivered, we ensure companies keep their data safe from breaches in corporate-owned and BYOD environments.",
+			"title3": "Seamless Integration",
+			"parag3": "We deliver apps that seamlessly plug into the existing IT infrastructure, including numerous back-end systems and mission-critical technologies."
+			},
+		"ua": {
+			"title1": "Об’єднаний досвід",
+			"parag1": "Використовуючи найкращі можливості працівників, ми завіряємо, що шлях переходу до користувачів повністю готовий без жодних контекстів чи специфічних компромісів",
+			"title2": "Повна безпека",
+			"parag2": "З кожним програмним рішенням доставленим до користувача ми завіряємо, що дані є в безпеці в різних середовищах.",
+			"title3": "Безшовна інтеграція",
+			"parag3": "Ми поставляємо програмні продукти без жорних шорохуватостей при з’єднанні з існуючою ІТ інфраструктурою, включаючи різноманітні серверні рішення і критичні технологічні продукти."
+		},
+		"class": {
+			"char1": "fa fa-users",
+			"char2": "fa fa-lock",
+			"char3": "fa fa-cubes"
+		}
+	}
+}

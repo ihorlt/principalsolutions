@@ -1,0 +1,39 @@
+<div>
+	<div ng-switch on="blockNumber">
+
+		<div ng-switch-when="1">
+			<style type="text/css">
+			  .breadcrumbs-v3.imgbr {
+			  background: url(img/breadcrumbs/{{items.imgpath}}) no-repeat;
+			  background-size: cover;
+			  background-position: center center;
+			}
+			</style>
+
+			<div class="breadcrumbs-v3 imgbr text-center" style="">
+				<div class="container">
+					<h1>{{items.title}}</h1>
+					<p>{{items.parag}}</p>
+				</div><!--/end container-->
+			</div>
+		</div>
+
+		<div ng-switch-when="2">
+			<style type="text/css">
+			  .breadcrumbs-v3.imgbr {
+			  background: url(img/breadcrumbs/{{items.imgpath}}) no-repeat;
+			  background-size: cover;
+			  background-position: center center;
+			}
+			</style>
+
+			<div class="breadcrumbs-v3 imgbr text-center" style="">
+				<div class="container">
+					<h1><span class="color-green">{{items.title}}</span></h1>
+					<p>{{items.parag}}</p>
+				</div><!--/end container-->
+			</div>
+		</div>
+
+	</div>
+</div>

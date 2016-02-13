@@ -1,0 +1,145 @@
+<div>
+<ng-switch on="lang.val">
+<div ng-switch-when="en">
+
+
+			<div class="container content">
+			<div class="row margin-bottom-30">
+				<div class="col-md-9 mb-margin-bottom-30">
+					<div class="headline"><h2>Contact Form</h2></div>
+
+					<form name="contactusForm" class="sky-form contact-style" >
+						<fieldset class="no-padding">
+							<label>Name <span class="color-red">*</span></label>
+							<div class="row sky-space-20">
+								<div class="col-md-7 col-md-offset-0">
+									<div>
+										<input type="text" name="name" id="name" class="form-control" ng-model="contact.myname" required>
+									</div>
+								</div>
+							</div>
+
+							<label>Email <span class="color-red">*</span></label>
+							<div class="row sky-space-20">
+								<div class="col-md-7 col-md-offset-0">
+									<div>
+										<input type="text" name="email" id="email" class="form-control" ng-model="contact.email" required>
+									</div>
+								</div>
+							</div>
+
+							<label>Message <span class="color-red">*</span></label>
+							<div class="row sky-space-20">
+								<div class="col-md-11 col-md-offset-0">
+									<div>
+										<textarea rows="8" name="message" id="message" class="form-control" ng-model="contact.message" required></textarea>
+									</div>
+								</div>
+							</div>
+
+							<p><button type="submit" ng-click="submit(contact)" class="btn-u">Send Message</button>
+							<button type="reset" ng-click="reset()" value="Reset"  class="btn-u">Reset</button></p>
+						</fieldset>
+
+						<div class="message" ng-show="hassend">
+							<i class="rounded-x fa fa-check"></i>
+							<p>Your message was successfully processed!</p>
+						</div>
+					</form>
+				</div><!--/col-md-9-->
+
+				<div class="col-md-3">
+					<!-- Contacts -->
+					<div class="headline"><h2>Contacts</h2></div>
+					<ul class="list-unstyled who margin-bottom-30">
+						<li><i class="fa fa-home"></i>Nezalezhnosti str. 23, Ivano-Frankivsk, 76000</li>
+						<li><a href="mailto:info@principalsolutions.tk?Subject=Hello" target="_top"><i class="fa fa-envelope"></i>info@principalsolutions.tk</a></li>
+						<li><i class="fa fa-phone"></i>(+380) 68 5412068</li>
+						<li><a ui-sref="lang.index({language: 'en'})"><i class="fa fa-globe"></i>http://www.principalsolutions.tk</a></li>
+					</ul>
+
+					<!-- Business Hours -->
+					<div class="headline"><h2>Business Hours</h2></div>
+					<ul class="list-unstyled margin-bottom-30">
+						<li><strong>Monday-Friday:</strong> 10am to 6pm</li>
+						<li><strong>Saturday:</strong> 11am to 2pm</li>
+						<li><strong>Sunday:</strong> Closed</li>
+					</ul>
+
+				</div><!--/col-md-3-->
+			</div><!--/row-->
+		</div>
+
+</div>
+<div ng-switch-when="ua">
+		
+	<div class="container content">
+			<div class="row margin-bottom-30">
+				<div class="col-md-9 mb-margin-bottom-30">
+					<div class="headline"><h2>Контактна форма</h2></div>
+
+					<form name="contactusForm" class="sky-form contact-style">
+						<fieldset class="no-padding">
+							<label>Ім’я <span class="color-red">*</span></label>
+							<div class="row sky-space-20">
+								<div class="col-md-7 col-md-offset-0">
+									<div>
+										<input type="text" name="name" id="name" class="form-control" ng-model="contact.myname" required>
+									</div>
+								</div>
+							</div>
+
+							<label>Email <span class="color-red">*</span></label>
+							<div class="row sky-space-20">
+								<div class="col-md-7 col-md-offset-0">
+									<div>
+										<input type="text" name="email" id="email" class="form-control" ng-model="contact.email" required>
+									</div>
+								</div>
+							</div>
+
+							<label>Повідомлення <span class="color-red">*</span></label>
+							<div class="row sky-space-20">
+								<div class="col-md-11 col-md-offset-0">
+									<div>
+										<textarea rows="8" name="message" id="message" class="form-control" ng-model="contact.message" required></textarea>
+									</div>
+								</div>
+							</div>
+
+							<p><button type="submit" ng-click="submit(contact)" class="btn-u">Послати повідомлення</button>
+							<button type="reset" ng-click="reset()" value="Reset"  class="btn-u">Оновити</button></p>
+						</fieldset>
+
+						<div class="message" ng-show="hassend">
+							<i class="rounded-x fa fa-check"></i>
+							<p>Повідомлення опрацьоване!</p>
+						</div>
+					</form>
+				</div><!--/col-md-9-->
+
+				<div class="col-md-3">
+					<!-- Contacts -->
+					<div class="headline"><h2>Контакти</h2></div>
+					<ul class="list-unstyled who margin-bottom-30">
+						<li><i class="fa fa-home"></i>Незалежності, 23, Івано-Франківськ, 76000</li>
+						<li><a href="mailto:info@principalsolutions.tk?Subject=Hello" target="_top"><i class="fa fa-envelope"></i>info@principalsolutions.tk</a></li>
+						<li><i class="fa fa-phone"></i>(+380) 68 5412068</li>
+						<li><a ui-sref="lang.index({language: 'en'})"><i class="fa fa-globe"></i>http://www.principalsolutions.tk</a></li>
+					</ul>
+
+					<!-- Business Hours -->
+					<div class="headline"><h2>Робочі години</h2></div>
+					<ul class="list-unstyled margin-bottom-30">
+						<li><strong>Понеділок-П’ятниця:</strong> 10 to 18</li>
+						<li><strong>Субота:</strong> 11 to 14</li>
+						<li><strong>Неділя:</strong> Закрито</li>
+					</ul>
+
+				</div><!--/col-md-3-->
+			</div><!--/row-->
+		</div>
+		
+</div>
+</ng-switch>
+</div>

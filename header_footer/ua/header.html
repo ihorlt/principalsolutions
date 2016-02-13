@@ -1,0 +1,91 @@
+<div class="header">
+	<div class="container">
+		<!-- Logo -->
+		<a class="logo" href="/">
+			<img src="img/logo.jpg" alt="Logo">
+		</a>
+		<!-- End Logo -->
+
+		<!-- Topbar -->
+		<div class="topbar">
+			<ul class="loginbar pull-right">
+				<li class="hoverSelector">
+					<i class="fa fa-globe"></i>
+					<a><span class="color-green">Select Languages</span></a>
+					<ul class="languages hoverSelectorBlock">
+						<li ui-sref-active="activeMenu">
+							<a ui-sref="lang.index({language: 'ua'})">Ukrainian<i class="fa fa-check"></i></a>
+						</li>
+						<li><a ui-sref="lang.index({language: 'en'})">English</a></li>
+					</ul>
+				</li>
+
+				<li class="topbar-devider"></li>
+
+				<li><a ui-sref="lang.index({language: 'ua'})">Принципал Солушнз</a></li>
+			</ul>
+		</div>
+		<!-- End Topbar -->
+
+		<!-- Toggle get grouped for better mobile display -->
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="fa fa-bars"></span>
+		</button>
+		<!-- End Toggle -->
+	</div>
+
+	<!-- Collect the nav links, forms, and other content for toggling -->
+	<div class="collapse navbar-collapse mega-menu navbar-responsive-collapse">
+		<div class="container">
+			<ul class="nav navbar-nav">
+
+				<!-- Home -->
+				<li class="dropdown">
+					<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+						РІШЕННЯ АВТОМАТИЗАЦІЇ
+					</a>
+					<ul class="dropdown-menu">
+						<li><a ui-sref="lang.index.manufacturing({language: 'ua'})">Технологічні компанії</a></li>
+						<li><a ui-sref="lang.index.education({language: 'ua'})">Освіта</a></li>
+						<li><a ui-sref="lang.index.transportation({language: 'ua'})">Транспорт та промисловість</a></li>
+					</ul>
+				</li>
+
+				<!-- Company -->
+				<li class="dropdown">
+					<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+						ТЕХНОЛОГІЧНІ РІШЕННЯ
+					</a>
+					<ul class="dropdown-menu">
+						<li><a ui-sref="lang.index.technologies_mobile({language: 'ua'})">Технології для мобільних пристроїв</a></li>
+						<li><a ui-sref="lang.index.website_design({language: 'ua'})">Веб дизайн та розроблення</a></li>
+						<li><a ui-sref="lang.index.languages_frameworks({language: 'ua'})">Мови програмування та фреймворки</a></li>
+					</ul>
+				</li>
+
+				<!-- DETAILS -->
+				<li class="dropdown">
+					<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+						УПРАВЛІННЯ ДОКУМЕНТООБІГОМ
+					</a>
+					<ul class="dropdown-menu">
+						<li><a ui-sref="lang.index.document_management({language: 'ua'})">Управління Документообігом</a></li>
+					</ul>
+				</li>
+
+				<!-- ABOUT -->
+				<li class="dropdown">
+					<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+						ПРО НАС
+					</a>
+					<ul class="dropdown-menu">
+						<li><a ui-sref="lang.index.about({language: 'ua'})">Про нас</a></li>
+					</ul>
+				</li>
+
+			</ul>
+		</div>
+	</div>
+
+</div>

@@ -1,0 +1,91 @@
+<div class="header">
+	<div class="container">
+		<!-- Logo -->
+		<a class="logo" href="/">
+			<img src="img/logo.jpg" alt="Logo">
+		</a>
+		<!-- End Logo -->
+
+		<!-- Topbar -->
+		<div class="topbar">
+			<ul class="loginbar pull-right">
+				<li class="hoverSelector">
+					<i class="fa fa-globe color-green"></i>
+					<a><span class="color-green">Вибір мови</span></a>
+					<ul class="languages hoverSelectorBlock">
+						<li>
+							<a ui-sref="lang.index({language: 'ua'})">Українська</a>
+						</li>
+						<li ui-sref-active="activeMenu"><a ui-sref="lang.index({language: 'en'})">Англійська<i class="fa fa-check"></i></a></li>
+					</ul>
+				</li>
+
+				<li class="topbar-devider"></li>
+
+				<li><a ui-sref="lang.index({language: 'en'})">Principal Solutions</a></li>
+			</ul>
+		</div>
+		<!-- End Topbar -->
+
+		<!-- Toggle get grouped for better mobile display -->
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="fa fa-bars"></span>
+		</button>
+		<!-- End Toggle -->
+	</div>
+
+	<!-- Collect the nav links, forms, and other content for toggling -->
+	<div class="collapse navbar-collapse mega-menu navbar-responsive-collapse">
+		<div class="container">
+			<ul class="nav navbar-nav">
+
+				<!-- Home -->
+				<li class="dropdown">
+					<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+						INDUSTRY SOLUTIONS
+					</a>
+					<ul class="dropdown-menu">
+						<li><a ui-sref="lang.index.manufacturing({language: 'en'})">Manufacturing</a></li>
+						<li><a ui-sref="lang.index.education({language: 'en'})">Education</a></li>
+						<li><a ui-sref="lang.index.transportation({language: 'en'})">Transportation and Industry</a></li>
+					</ul>
+				</li>
+
+				<!-- Company -->
+				<li class="dropdown">
+					<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+						TECHNOLOGICAL SOLUTIONS
+					</a>
+					<ul class="dropdown-menu">
+						<li><a ui-sref="lang.index.technologies_mobile({language: 'en'})">Mobile Technologies</a></li>
+						<li><a ui-sref="lang.index.website_design({language: 'en'})">Website Design And Development</a></li>
+						<li><a ui-sref="lang.index.languages_frameworks({language: 'en'})">Languages and Frameworks</a></li>
+					</ul>
+				</li>
+
+				<!-- DETAILS -->
+				<li class="dropdown">
+					<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+						DOCUMENT MANAGEMENT
+					</a>
+					<ul class="dropdown-menu">
+						<li><a ui-sref="lang.index.document_management({language: 'en'})">Document Management</a></li>
+					</ul>
+				</li>
+
+				<!-- ABOUT -->
+				<li class="dropdown">
+					<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+						ABOUT US
+					</a>
+					<ul class="dropdown-menu">
+						<li><a ui-sref="lang.index.about({language: 'en'})">About us</a></li>
+					</ul>
+				</li>
+
+			</ul>
+		</div>
+	</div>
+
+</div>
